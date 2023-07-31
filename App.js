@@ -6,17 +6,17 @@ import { StyleSheet, Text, View } from 'react-native';
 worker.start();
 
 export default function App() {
-  const [message, setMessage] = useState('Loading');
+  const [title, setTitle] = useState('Loading');
 
   useEffect(() => {
     fetch('/api')
       .then((res) => res.json())
-      .then((data) => setMessage(data.title));
+      .then((data) => setTitle(data.title));
   }, []);
 
   return (
     <View style={styles.container}>
-      <Text>{message}</Text>
+      <Text>{title}</Text>
       <StatusBar style="auto" />
     </View>
   );

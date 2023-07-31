@@ -1,7 +1,7 @@
 import { expect, test } from './test';
 import { rest } from 'msw';
 
-test('has title', async ({ page }) => {
+test('shows response from MSW', async ({ page }) => {
   await page.goto('http://localhost:19006/');
 
   await expect(page.getByText('Mock Response')).toBeVisible();
