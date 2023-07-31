@@ -21,7 +21,11 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
-    "@playwright/test": "^1.36.2"
+    "@playwright/test": "^1.36.2",
+    "msw": "^1.2.3"
   },
-  "private": true
+  "private": true,
+  "msw": {
+    "workerDirectory": "public"
+  }
 }
