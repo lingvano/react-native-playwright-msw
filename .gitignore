@@ -33,3 +33,6 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+/test-results/
+/playwright-report/
+/playwright/.cache/
