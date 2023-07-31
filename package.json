@@ -22,7 +22,8 @@
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@playwright/test": "^1.36.2",
-    "msw": "^1.2.3"
+    "msw": "^1.2.3",
+    "playwright-msw": "^2.2.1"
   },
   "private": true,
   "msw": {
