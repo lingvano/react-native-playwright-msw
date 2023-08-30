@@ -10,5 +10,5 @@ This repo serves as an example React Native Expo app to reproduce the playwright
 - playwright/msw
 
 ## How to run tests
-- Run `npx playwright install`
-- Run `yarn playwright test tests/example.spec.ts`
+- Install Playwright browsers locally `npx playwright install`
+- Run tests `yarn playwright test tests/example.spec.ts`
