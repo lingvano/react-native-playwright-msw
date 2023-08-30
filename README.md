@@ -8,3 +8,7 @@ This repo serves as an example React Native Expo app to reproduce the playwright
 - Playwright
 - MSW
 - playwright/msw
+
+## How to run tests
+- Run `npx playwright install`
+- Run `yarn playwright test tests/example.spec.ts`
